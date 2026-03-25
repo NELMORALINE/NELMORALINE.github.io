@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NELMORA - Luxury Bags</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #000; color: #FFD700; }
+    header { padding: 20px; text-align: center; background-color: #111; }
+    header h1 { margin: 0; font-size: 3em; }
+    nav { margin: 20px 0; text-align: center; }
+    nav a { color: #FFD700; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .hero { text-align: center; padding: 60px 20px; background: url('https://via.placeholder.com/1200x500') center/cover no-repeat; color: #fff; }
+    .hero h2 { font-size: 2.5em; margin: 0; text-shadow: 2px 2px #000; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 40px; }
+    .product { background-color: #111; padding: 20px; border-radius: 10px; text-align: center; }
+    .product img { width: 100%; border-radius: 10px; }
+    .product h3 { margin: 15px 0 10px; }
+    .product p { margin: 0 0 10px; }
+    .product button { background-color: #FFD700; border: none; padding: 10px 20px; font-weight: bold; border-radius: 5px; cursor: pointer; }
+    .product button:hover { background-color: #e6c200; }
+    .section { padding: 60px 20px; text-align: center; }
+    footer { background-color: #111; padding: 20px; text-align: center; }
+    footer p { margin: 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NELMORA</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Luxury Bags Collection</h2>
+  </section>
+
+  <section class="products" id="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x300" alt="Elegant Handbag">
+      <h3>Elegant Handbag</h3>
+      <p>490 MAD</p>
+      <button>Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x300" alt="Luxury Tote Bag">
+      <h3>Luxury Tote Bag</h3>
+      <p>790 MAD</p>
+      <button>Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x300" alt="Premium Crossbody Bag">
+      <h3>Premium Crossbody Bag</h3>
+      <p>690 MAD</p>
+      <button>Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x300" alt="Classic Clutch">
+      <h3>Classic Clutch</h3>
+      <p>550 MAD</p>
+      <button>Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x300" alt="Designer Shoulder Bag">
+      <h3>Designer Shoulder Bag</h3>
+      <p>820 MAD</p>
+      <button>Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x300" alt="Elegant Satchel">
+      <h3>Elegant Satchel</h3>
+      <p>610 MAD</p>
+      <button>Order Now</button>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About NELMORA</h2>
+    <p>NELMORA is a premium luxury bag brand offering elegant, high-quality handbags for fashion-conscious customers in Morocco.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Social media and WhatsApp links coming soon.</p>
+    <p>Cash on delivery available in Morocco.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 NELMORA. All rights reserved.</p>
+  </footer>
+</body>
+</html>
